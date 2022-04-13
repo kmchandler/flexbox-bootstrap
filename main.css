@@ -1,3 +1,45 @@
 body {
-  background-color: lightpink;
+  background-color: lightgray;
+}
+
+.outer-div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.outer-div > div {
+  width: 500px;
+}
+
+.btn {
+  background-color: #01a263;
+  color: white;
+}
+
+#me {
+  display: flex;
+  justify-content: center;  
+  margin-top: 50px;
+}
+
+.avatar {
+  width: 200px;
+}
+
+#header-txt {
+  color: #01a263;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
 }
